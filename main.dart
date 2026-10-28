@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'fitur.dart';
 import 'input.dart';
 
@@ -45,3 +46,16 @@ void main() {
 
   print('Terima kasih.');
 }
+=======
+void main(){
+    int decimal = 10;
+    int octal = int.parse('12', radix: 8);
+    int binary = int.parse('1010', radix: 2);
+    int hexadecimal = 0xA;
+
+    print(decimal);
+    print(binary);
+    print(hexadecimal);
+    print(octal);
+}
+>>>>>>> dfde20a41343c81d6132157712403863a8e983b3
